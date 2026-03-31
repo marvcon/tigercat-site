@@ -1,0 +1,7 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/mint", "destination": "/mint/index.html" },
+    { "source": "/mint/:path*", "destination": "/mint/:path*" }
+  ]
+}
